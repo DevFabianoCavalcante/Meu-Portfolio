@@ -1,0 +1,127 @@
+@import "typography-style.css";
+
+.container-services-skills {
+    display: flex;
+    height: 100rem;
+    width: 100%;
+}
+
+.container-services {
+    height: 100%;
+    width: 50%;
+    margin-left: 19rem;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.services h2 {
+    font-size: 4.8rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: var(--grey-11);
+    margin-right: 1rem;
+}
+
+.services img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.services-description {
+    margin-left: 15rem;
+}
+
+.services-description img{
+    height: 30rem;
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.services-description h3 {
+    font-size: 3.2rem;
+    font-family: var(--openSans);
+    font-weight: 600;
+    margin-left: -2rem;
+    color: var(--grey-11);
+}
+
+.services-description p {
+    font-size: 1.8rem;
+    font-family: var(--openSans);
+    margin-left: -2rem;
+    color: var(--grey-10);
+    max-width: 35rem;
+}
+
+.container-skills {
+    height: 100%;
+    width: 50%;
+    margin-right: 19rem;
+    padding-top: 25rem;
+}
+
+.skills {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-bottom: 3rem;
+    justify-content: right;
+}
+
+.skills img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.skills h3 {
+    font-size: 4.8rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    margin-left: 1rem;
+    color: var(--grey-11);
+}
+
+.skills-group {
+    display: flex;
+    flex-flow: row wrap;
+    height: 52rem;
+    width: 39rem;
+    border-radius: 5px;
+    margin-left: 15rem;
+    background-color: var(--grey-3);
+    box-shadow: 1px 1px #141414;
+}
+
+.type-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 8rem;
+    margin: 2.5rem;
+    border-radius: 5px;
+    background-color: var(--grey-2);
+    box-shadow: 1px 1px #181818;
+    transition: ease-in-out .5s;
+}
+
+.type-skills:hover {
+    transform: scale(1.1);
+}
+
+.type-skills img {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.type-skills p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--openSans);
+    color: var(--grey-11);
+}
