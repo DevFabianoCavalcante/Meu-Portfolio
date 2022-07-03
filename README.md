@@ -1,9 +1,8 @@
-<h1 align="right">Bem vindo ao meu portfólio</h1>
+<h1 align="left">Bem vindo ao meu portfólio</h1>
 
-<h2 align="right">Desenvolvi esse portfólio com o objetivo de expor os meus principais projetos e minhas qualificações de maneira clara e organizada, através de uma landing page com uma identidade visual a qual eu mesmo elaborei buscando práticar os conceitos de UI design.</h2>
-<br />
-<br />
-<h3>:briefcase: Status de produção:</h3>
+## Desenvolvi esse portfólio com o objetivo de expor os meus principais projetos e minhas qualificações de maneira clara e organizada, através de uma landing page com uma identidade visual a qual eu mesmo elaborei buscando práticar os conceitos de UI design.
+
+<h3>:briefcase: Status de produção: </h3>
 <h3>Em desenvolvimento :desktop_computer: :hammer:</h3>
 <br />
 <h3>:key: Como Acessar meu protfólio</h3>
