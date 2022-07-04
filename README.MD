@@ -1,17 +1,27 @@
-<h1 align="left">Bem vindo ao meu portfólio</h1>
+<h1 align="center">Bem vindo ao meu portfólio</h1>
 
 ## Desenvolvi esse portfólio com o objetivo de expor os meus principais projetos e minhas qualificações de maneira clara e organizada, através de uma landing page com uma identidade visual a qual eu mesmo elaborei buscando práticar os conceitos de UI design.
 
 
 ## :briefcase: Status de produção:
-### Em desenvolvimento :desktop_computer: :hammer:
 
+<h3 align="center"> Em desenvolvimento :desktop_computer: </h3>
+
+## Etapas de desenvolvimento restantes:
+- Interface da área de contato
+- Revisar todas as interações da página
+- Construir funcionalidade do formulário de contato
+- Implementar responsividade
+- Refatorar código caso necessário
+- Realizar deploy
 
 ## :key: Como Acessar meu protfólio
-### Basta clicar [aqui](...) para ser redirecionado para a página.
+
+Basta clicar [aqui](...) para ser redirecionado para a página.
 
 
 ## :hammer_and_wrench: Ferramentas e conceitos que trabalhei nesse projeto:
+
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [CSS Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
@@ -20,5 +30,6 @@
 
 
 ## Como entrar em contato comigo:
+
 - [Gmail](7fabiano.silva@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/fabiano-cavalcante-99811221a/)
