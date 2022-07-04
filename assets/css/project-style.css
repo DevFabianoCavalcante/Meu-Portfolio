@@ -134,8 +134,8 @@
     background:linear-gradient(var(--gradient-btn-2));
     font-size: 2.4rem;
     font-family: var(--openSans);
-    font-weight: 600;
-    color: var(--blue-1);
+    font-weight: 400;
+    color: var(--grey-11);
     transition: ease-in-out .5s;
 }
 

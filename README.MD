@@ -3,11 +3,12 @@
 ## Desenvolvi esse portfólio com o objetivo de expor os meus principais projetos e minhas qualificações de maneira clara e organizada, através de uma landing page com uma identidade visual a qual eu mesmo elaborei buscando práticar os conceitos de UI design.
 
 
-## :briefcase: Status de produção:
+<h2 align="center">:briefcase: Status de produção:</h2>
 
-<h3 align="center"> Em desenvolvimento :desktop_computer: </h3>
+Em desenvolvimento :desktop_computer:
 
-## Etapas de desenvolvimento restantes:
+
+## Etapas restantes para a conclusão do projeto:
 - Interface da área de contato
 - Revisar todas as interações da página
 - Construir funcionalidade do formulário de contato
@@ -17,7 +18,7 @@
 
 ## :key: Como Acessar meu protfólio
 
-Basta clicar [aqui](...) para ser redirecionado para a página.
+Basta clicar [aqui](...) para ser redirecionado até a página.
 
 
 ## :hammer_and_wrench: Ferramentas e conceitos que trabalhei nesse projeto:

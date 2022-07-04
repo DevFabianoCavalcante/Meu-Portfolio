@@ -1,0 +1,32 @@
+@import 'typography-style.css';
+
+.container-contact-area{
+    height: 65.3rem;
+    width: 100%;
+    background-color: var(--grey-3);
+    margin-top: 3rem;
+}
+
+.container-title-contact-area {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    width: 100%;
+    background-color: var(--grey-2);
+    padding: 0 18rem;
+}
+
+.container-title-contact-area h2 {
+    font-size: 3.6rem;
+    font-family: var(--openSans);
+    font-weight: 600;
+    text-align: left;
+    color: var(--blue-5);
+}
+
+.container-content-contact {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 0 18rem;
+}
