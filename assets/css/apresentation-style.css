@@ -79,7 +79,6 @@
     box-shadow: 2px 1px 5px #1a1a1a;
     background-color: var(--grey-2);
     padding: 3rem 4.7rem;
-    transition: 1s;
     z-index: 0;
 }
 

@@ -43,3 +43,7 @@ a {
     font-family: inherit;
     font-size: inherit;
 }
+
+.scroll-effect-1s, .scroll-effect-3s, .scroll-effect-4s {
+    visibility: hidden;
+}
