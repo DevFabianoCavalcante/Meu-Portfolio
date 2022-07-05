@@ -76,7 +76,7 @@
     height: 32.8rem;
     width: 50rem;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px #3C3C3C;
+    box-shadow: 2px 1px 5px #1a1a1a;
     background-color: var(--grey-2);
     padding: 3rem 4.7rem;
     transition: 1s;
@@ -151,6 +151,12 @@
     border: 2px solid var(--blue-1);
     cursor: pointer;
     transition: 0.5s ease-in-out;
+}
+
+.btn-download-cv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-download-cv:hover {

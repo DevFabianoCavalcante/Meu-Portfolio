@@ -92,7 +92,7 @@
     border-radius: 5px;
     margin-left: 15rem;
     background-color: var(--grey-3);
-    box-shadow: 1px 1px #141414;
+    box-shadow: 2px 1px 5px #1a1a1a;
 }
 
 .type-skills {
