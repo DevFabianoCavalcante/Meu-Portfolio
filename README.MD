@@ -9,7 +9,6 @@ Em desenvolvimento :desktop_computer:
 
 
 ## Etapas restantes para a conclusão do projeto:
-- Construir funcionalidade do formulário de contato
 - Implementar responsividade
 - Refatorar código caso necessário
 - Realizar deploy
@@ -25,6 +24,8 @@ Basta clicar [aqui](...) para ser redirecionado até a página.
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [CSS Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [ScrollReveal.js](https://scrollrevealjs.org/)
+- [FormSubmit](https://formsubmit.co/documentation)
 - UI/UX
 
 
