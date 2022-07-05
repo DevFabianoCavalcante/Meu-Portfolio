@@ -16,16 +16,18 @@
     --grey-1: #232323;
     --grey-2: #333333;
     --grey-3: #464646;
+    --grey-4: #5C5C5C;
     --grey-10: #EDEDED;
     --grey-11: #F7F7F7;
-    --gradientColor-1: #F7F7F7;
-    --gradientColor-2: #8AA1BF;
     --poppins: 'Poppins', sans-serif;
     --coda: 'Coda', cursive;
     --openSans: 'Open Sans', sans-serif;
     --fugazOne: 'Fugaz One', cursive;
     --gradient-btn:#F7F7F7, #8AA1BF;
     --gradient-btn-2: #00759F, #00BBFF;
+    --gradientColor-1: #F7F7F7;
+    --gradientColor-2: #8AA1BF;
+    --gradient-transition: #232323, #464646;
 }
 
 html {
