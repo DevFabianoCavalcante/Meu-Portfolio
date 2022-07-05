@@ -9,8 +9,6 @@ Em desenvolvimento :desktop_computer:
 
 
 ## Etapas restantes para a conclusão do projeto:
-- Interface da área de contato
-- Revisar todas as interações da página
 - Construir funcionalidade do formulário de contato
 - Implementar responsividade
 - Refatorar código caso necessário
