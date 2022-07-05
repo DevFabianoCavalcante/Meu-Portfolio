@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Fugaz+One&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/header-style.css">
     <link rel="stylesheet" href="./assets/css/apresentation-style.css">
     <link rel="stylesheet" href="./assets/css/typography-style.css">
@@ -11,9 +14,6 @@
     <link rel="stylesheet" href="./assets/css/qualification-style.css">
     <link rel="stylesheet" href="./assets/css/project-style.css">
     <link rel="stylesheet" href="./assets/css/footer-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Fugaz+One&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Fabiano Cavalcante</title>
 </head>
 <body>
@@ -52,7 +52,6 @@
                         <a href="./assets/document/Currículo Fabiano Cavalcante.pdf" download="Currículo Fabiano Cavalcante.pdf">Currículo <img src="./assets/img/doc-portifolio.svg"/>
                         </a>
                     </button>
-                    </a>
                 </div>
             </div>
         </main>
@@ -287,7 +286,7 @@
                     </div>
                 </div>
                 <div class="container-form">
-                    <form class="form-area" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="post">
+                    <form class="form-area" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST">
                         <label class="label-area">
                             Nome
                             <input type="text" name="name">
@@ -301,6 +300,7 @@
                             <textarea name="message"></textarea>
                         </label>
                         <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks-page.html">
                         <button class="btn-submit-form" type="submit">Enviar</button>
                     </form>
                 </div>
