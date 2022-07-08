@@ -9,13 +9,13 @@ Em desenvolvimento :desktop_computer:
 
 
 ## Etapas restantes para a conclusão do projeto:
-- Implementar responsividade
-- Refatorar código caso necessário
-- Realizar deploy
+    - Menu mobile
+    - Personalizar barra de menu conforme o scroll
+    - Validação do formulário
 
 ## :key: Como Acessar meu protfólio
 
-Basta clicar [aqui](...) para ser redirecionado até a página.
+Basta clicar [aqui](https://fabiano-cavalcante.netlify.app/) para ser redirecionado até a página.
 
 
 ## :hammer_and_wrench: Ferramentas e conceitos que trabalhei nesse projeto:
