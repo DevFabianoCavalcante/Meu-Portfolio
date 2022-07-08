@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coda&family=Fugaz+One&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/header-style.css">
+    <link rel="stylesheet" href="./assets/css/first-area-style.css">
     <link rel="stylesheet" href="./assets/css/apresentation-style.css">
     <link rel="stylesheet" href="./assets/css/typography-style.css">
     <link rel="stylesheet" href="./assets/css/services-skills-style.css">
@@ -32,29 +33,30 @@
     
     <section>
         <main>
-            <div id="init" class="container-apresentation scroll-effect-1s">
-                <div>
-                    <h1 class="name-dev">
-                        Fabiano Cavalcante
-                        <span>Fabiano Cavalcante</span>
-                        <span>Fabiano Cavalcante</span>
-                        <span>Dev Front End</span>
-                    </h1>
-                </div>
-                <div class="container-description">
-                    <div class="container-title-description">
-                        <img class="icon-detail" src="./assets/img/detalhe-portifolio-1.svg" alt="dois retangulos na vertical formando um detalhe do título" />
-                        <h2 id="title-description">Desenvolvedor Front End</h2>
-                    </div>
-                    <p>com sólidos conhecimentos em <span class="word-keys-1">HTML</span>, <span class="word-keys-1">CSS</span>, <span class="word-keys-1">Javascript</span>, <span class="word-keys-1">Typescript</span> e <span class="word-keys-1">ReactJs</span>. Além de grande familiaridade com <span class="word-keys-2">Bootstrap</span>, <span class="word-keys-2">Tailwind</span>, <span class="word-keys-2">Styled Components</span>, <span class="word-keys-2">Figma</span> e <span class="word-keys-2">Git</span>.</p>
-                    
-                    <button type="button" class="btn-download-cv">
-                        <a href="./assets/document/Currículo Fabiano Cavalcante.pdf" download="Currículo Fabiano Cavalcante.pdf">Currículo <img src="./assets/img/doc-portifolio.svg"/>
-                        </a>
-                    </button>
+            <div class="main-container">
+                <h1 class="name-dev" id="dev">Fabiano Cavalcante</h1>
+                <h2 class="stack-dev" id="stack">Desenvolvedor Front-End</h2>
+                <div class="elipse-container scroll-effect-4s">
+                    <img src="./assets/img/Moonlight.svg" alt="elipse brilhante na cor azul" />
                 </div>
             </div>
         </main>
+    </section>
+
+    <section>
+        <div class="container-apresentation">
+            <div class="apresentation-area scroll-effect-1s">
+                <h1 class="title-apresentation">Quem sou eu?</h1>
+                <p class="info-apresentation">Sou desenvolvedor Front-End e acadêmico em Análise e desenvolvimento de sistemas, possuo sólidos conhecimentos em <span class="key-word">HTML</span>, <span class="key-word">CSS</span>, <span class="key-word">Javascript</span> e <span class="key-word">Typescript</span>, além de grande familiaridade com <span class="key-word">ReactJs</span>, Bootstrap, UI/UX e várias outras ferramentas do mercado.</p>
+                <button type="button" class="btn-download-cv scroll-effect-4s">
+                    <a href="./assets/document/Currículo Fabiano Cavalcante.pdf" download="Currículo Fabiano Cavalcante.pdf">Currículo <img src="./assets/img/doc-portifolio.svg"/>
+                    </a>
+                </button>
+            </div>
+            <div class="container-image-apresentation">
+                <img class="scroll-effect-4s" src="./assets/img/boomerang.svg" alt="duas elipses se unindo em sentindo diagonal" />
+            </div>
+        </div>
     </section>
 
     <section>
@@ -67,7 +69,7 @@
                 <div class="services-description scroll-effect-3s">
                     <img src="./assets/img/Elipse-dev.svg" alt="circulo branco com simbolo fazendo alusão ao html" />
                     <h3>Desenvolvimento Web</h3>
-                    <p>Desenvolvimento de sistemas e sites responsivos, além de manutenções.</p>
+                    <p>Desenvolvimento e manutenção de sites responsivos.</p>
                 </div>
             </div>
             <div class="container-skills">
@@ -142,14 +144,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="qualifying-training">
-                    <div class="qualifying-title scroll-effect-1s">
+                <div class="extra-study">
+                    <div class="extra-study-title scroll-effect-1s">
                         <img src="./assets/img/icon-evaluation.svg" alt="ícone de uma prova avaliativa">
                         <h3>Qualificatória</h3>
                     </div>
-                    <div class="container-qualifications">
-                        <div class="type-qualification scroll-effect-3s">
-                            <div class="details-qualification">
+                    <div class="container-extra-study">
+                        <div class="type-extra-study scroll-effect-3s">
+                            <div class="details-extra-study">
                                 <p>B7web</p>
                                 <h4>Typescript</h4>
                             </div>
@@ -157,13 +159,22 @@
                                 <p class="workload">20h</p>
                             </div>
                         </div>
-                        <div class="type-qualification scroll-effect-3s">
-                            <div class="details-qualification">
+                        <div class="type-extra-study scroll-effect-3s">
+                            <div class="details-extra-study">
                                 <p>B7web</p>
                                 <h4>Javascript</h4>
                             </div>
                             <div>
                                 <p class="workload">44h</p>
+                            </div>
+                        </div>
+                        <div class="type-extra-study scroll-effect-3s">
+                            <div class="details-extra-study">
+                                <p>Origamid</p>
+                                <h4>CSS Flexbox</h4>
+                            </div>
+                            <div>
+                                <p class="workload">6h</p>
                             </div>
                         </div>
                     </div>
@@ -181,7 +192,9 @@
             <div class="main-container-project">
                 <div class="type-project scroll-effect-3s">
                     <div class="left-side-project">
-                        <img src="./assets/img/Image-IMC.png" alt="foto do projeto IMC">
+                        <div class="container-image">
+                            <img src="./assets/img/Image-IMC.png" alt="foto do projeto IMC">
+                        </div>
                         <div class="skills-used-container">
                             <div>CSS</div>
                             <div>ReactJs</div>
@@ -208,7 +221,9 @@
                 </div>
                 <div class="type-project scroll-effect-3s">
                     <div class="left-side-project">
-                        <img src="./assets/img/image-Coin.png" alt="foto do projeto Conversor de Moedas">
+                        <div class="container-image">
+                            <img src="./assets/img/image-Coin.png" alt="foto do projeto Conversor de Moedas">
+                        </div>
                         <div class="skills-used-container">
                             <div>HTML</div>
                             <div>CSS</div>
@@ -234,7 +249,9 @@
                 </div>
                 <div class="type-project scroll-effect-3s">
                     <div class="left-side-project">
-                        <img src="./assets/img/image-CRUD.png" alt="foto do projeto CRUD">
+                        <div class="container-image">
+                            <img src="./assets/img/image-CRUD.png" alt="foto do projeto CRUD">
+                        </div>
                         <div class="skills-used-container">
                             <div>HTML</div>
                             <div>CSS</div>
@@ -286,7 +303,7 @@
                     </div>
                 </div>
                 <div class="container-form scroll-effect-3s">
-                    <form class="form-area" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST">
+                    <form class="form-area" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST" autocomplete="off">
                         <label class="label-area">
                             Nome
                             <input type="text" name="name">
@@ -306,7 +323,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./assets/js/animation-title.js"></script>
