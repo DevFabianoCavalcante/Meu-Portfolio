@@ -1,9 +1,10 @@
 @import "typography-style.css";
 
 .container-qualification {
-    height: 60rem;
     width: 100%;
     margin-top: 6rem;
+    padding: 5rem 0;
+    background: linear-gradient(var(--gradient-area));
 }
 
 .formation-title {
@@ -27,12 +28,8 @@
 
 .containers-formations {
     display: flex;
-    height: 100%;
+    flex-wrap: wrap;
     width: 100%;
-}
-
-.academic-education {
-    width: 50%;
 }
 
 .container-title-academic-education {
@@ -44,13 +41,15 @@
     font-size: 3.2rem;
     font-family: var(--poppins);
     font-weight: 600;
-    color: var(--blue-4);
+    color: var(--grey-11);
     margin: 0 1rem 0 0;
 }
 
 .education-1 {
-    height: 14rem;
-    width: 34.4rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 0 1 16rem;
     border-radius: 5px;
     background-color: var(--grey-11);
     margin-left: 18rem;
@@ -87,15 +86,14 @@
     color: var(--grey-3);
 }
 
-.qualifying-training {
+.extra-study {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    width: 50%;
-    margin: 5rem 18rem 4rem 0;
+    margin: 5rem 18rem 4rem auto;
 }
 
-.qualifying-title {
+.extra-study-title {
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -103,43 +101,44 @@
     margin-bottom: 3.5rem;
 }
 
-.qualifying-title img{
+.extra-study-title img{
     height: 2.4rem;
     width: 2.4rem;
 }
 
-.qualifying-title h3 {
+.extra-study-title h3 {
     font-size: 3.2rem;
     font-family: var(--poppins);
     font-weight: 600;
-    color: var(--blue-4);
+    color: var(--grey-11);
     margin-left: 1rem;
 }
 
-.container-qualifications {
+.container-extra-study {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.type-qualification {
+.type-extra-study {
     display: flex;
     justify-content: space-between;
+    flex: 0 2 3rem;
     height: 7rem;
     width: 47rem;
-    padding: 0.6rem 1rem;
+    padding: 1rem 1rem;
     background-color: var(--grey-3);
     border-radius: 5px;
     box-shadow: 1px 1px #181818;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
     transition: ease-in-out .5s;
 }
 
-.type-qualification:hover {
+.type-extra-study:hover {
     transform: scale(1.1);
 }
 
-.details-qualification p {
+.details-extra-study p {
     font-size: 1.3rem;
     font-family: var(--openSans);
     font-weight: 600;
@@ -147,7 +146,7 @@
     margin-bottom: 0.1rem;
 }
 
-.details-qualification h4 {
+.details-extra-study h4 {
     font-size: 2rem;
     font-family: var(--openSans);
     font-weight: bold;
@@ -160,3 +159,62 @@
     font-weight: 400;
     color: var(--grey-11);
 }
+
+
+@media (max-width: 1000px) {
+    .container-title-academic-education {
+        justify-content: center;
+        margin: 5rem 0 2rem 0;
+    }
+    
+    .container-title-academic-education h3 {
+        font-size: 3rem;
+    }
+
+    .education-1 {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 0 1 16rem;
+        margin: 0 auto;
+    }
+
+    .academic-education {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .container-extra-study {
+        align-items: center;
+    }
+
+    .extra-study {
+        justify-content: center;
+        margin: 5rem auto 0 auto;
+        padding: 0 2rem;
+    }
+
+    .extra-study-title {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .type-extra-study {
+        flex: 0 2 4rem;
+        height: 7rem;
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+}
+
+/* @media (max-width: 500px) {
+    .type-extra-study {
+        flex: 0 2 4rem;
+        height: 7rem;
+        width: 30rem;
+        margin: 0 5% 2rem 5%;
+    }
+} */

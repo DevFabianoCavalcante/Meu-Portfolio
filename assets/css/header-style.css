@@ -3,7 +3,7 @@
 .sidebar-container {
     position: fixed;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     height: 8rem;
@@ -11,12 +11,12 @@
     padding: 0 18rem;
     background-color: var(--grey-1);
     transition: 0.5s;
-    z-index: 1;
+    z-index: 99;
 }
 
 .logo-name {
     font-family: var(--coda);
-    color: var(--blue-4);
+    color: var(--blue-5);
     font-size: 28px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
@@ -33,7 +33,7 @@
     font-family: var(--poppins);
     font-size: 2.4rem;
     font-weight: 600;
-    color: var(--blue-4);
+    color: var(--blue-5);
 }
 
 .sidebar-list li {
@@ -48,4 +48,17 @@
     transform: scale(1.1);
     color: var(--blue-7);
     box-shadow: 0 0 5px var(--blue-5);
+}
+
+@media (max-width: 870px) {
+    .sidebar-container {
+        justify-content: space-around;
+        padding: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .sidebar-container {
+        display: none;
+    }
 }

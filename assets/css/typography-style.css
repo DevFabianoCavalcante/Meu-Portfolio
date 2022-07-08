@@ -25,6 +25,7 @@
     --fugazOne: 'Fugaz One', cursive;
     --gradient-btn:#F7F7F7, #8AA1BF;
     --gradient-btn-2: #00759F, #00BBFF;
+    --gradient-area: #232323, #00759F, #232323;
     --gradientColor-1: #F7F7F7;
     --gradientColor-2: #8AA1BF;
     --gradient-transition: #232323, #464646;
@@ -46,4 +47,10 @@ a {
 
 .scroll-effect-1s, .scroll-effect-3s, .scroll-effect-4s {
     visibility: hidden;
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 9px;
+    }
 }

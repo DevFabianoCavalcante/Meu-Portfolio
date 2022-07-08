@@ -1,11 +1,10 @@
 @import 'typography-style.css';
 
 .container-project {
-    padding: 0 18.5rem 0 0;
+    margin: 3rem 18rem 0 0;
     display: flex;
     flex-direction: column;
     justify-content: right;
-    align-items: flex-end;
 }
 
 .title-container-project {
@@ -50,11 +49,16 @@
     margin: 5rem 2rem 0 2rem;
 }
 
-.left-side-project img{
+.container-image {
     height: 23rem;
     width: 42rem;
     border-radius: 5px;
     margin-bottom: 2rem;
+}
+
+.container-image img {
+    height: 100%;
+    width: 100%;
 }
 
 .skills-used-container {
@@ -148,6 +152,7 @@
     font-size: 2rem;
     font-family: var(--openSans);
     font-weight: 400;
+    margin: 0 0 0 auto;
     color: var(--grey-11);
     transition: ease-in-out .5s;
     margin-bottom: 2rem;
@@ -158,3 +163,81 @@
     font-weight: bold;
     color: var(--blue-5);
 }
+
+
+@media (max-width: 1200px) {
+
+    .container-project {
+        margin: 3rem auto;
+        justify-content: center;
+    }
+
+    .title-container-project {
+        justify-content: center;
+    }
+
+    .main-container-project {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .type-project {
+        display: flex;
+        flex-flow: column wrap;
+        height: auto;
+        width: 90%;
+        margin:0 2rem 3rem 2rem;
+    }
+
+    .left-side-project {
+        margin: 5rem auto 0 auto;
+    }
+    
+    .container-image {
+        height: auto;
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    .skills-used-container {
+        justify-content: space-evenly;
+        width: auto;
+    }
+    
+    .skills-used-container div {
+        margin: 0.5rem 0;
+    }
+
+    .description-project {
+        margin: 1.5rem auto 5rem auto;
+    }
+
+    .description-project h3 {
+        text-align: center;
+        margin: 0 1rem 0.5rem 1rem;
+    }
+    
+    .description-project p {
+        text-align: center;
+        height: auto;
+        margin: 0 auto 3rem auto;
+        padding: 0 1rem;
+    }
+
+    .container-btn-project {
+        margin: 1rem auto;
+        padding: 0 1.5rem;
+    }
+
+    .github-project{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .github-project:hover {
+        transform: scale(1);
+    }
+}
+
+
