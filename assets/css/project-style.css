@@ -220,6 +220,7 @@
     .description-project p {
         text-align: center;
         height: auto;
+        max-width: 50rem;
         margin: 0 auto 3rem auto;
         padding: 0 1rem;
     }
