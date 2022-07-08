@@ -1,0 +1,142 @@
+@import 'typography-style.css';
+
+.main-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100rem;
+    margin: 0 0 0 18rem;
+    text-transform: uppercase;
+}
+
+.name-dev {
+    font-size: 5.6rem;
+    font-weight: 400;
+    font-family: var(--coda);
+    letter-spacing: 4rem;
+    color: var(--grey-11);
+    margin-bottom: 1.5rem;
+    z-index: 2;
+}
+
+.stack-dev {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--coda);
+    letter-spacing: 1.5rem;
+    color: var(--grey-11);
+    z-index: 2;
+}
+
+.elipse-container {
+    position: absolute;
+    right: 21%;
+    z-index: 1;
+}
+
+.elipse-container img {
+    height: 60rem;
+    width: 60rem;
+    transition: ease-in-out .5s;
+}
+
+.elipse-container img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1180px) {
+    .elipse-container {
+        right: 15%;
+    }
+    
+    .elipse-container img {
+        height: 50rem;
+        width: 50rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .elipse-container {
+        right: 10%;
+    }
+}
+
+@media (max-width: 930px) {
+    .main-container {
+        margin: 0 2rem;
+        align-items: center;
+    }
+
+    .name-dev {
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        text-align: center;
+    }
+
+    .stack-dev {
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        text-align: center;
+    }
+
+    .elipse-container {
+        right: 5%;
+    }
+
+    .elipse-container img {
+        height: 35rem;
+        width: 35rem;
+    }
+
+    .elipse-container img:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 620px) {
+    .main-container {
+        height: 110rem;
+    }
+
+    .elipse-container {
+        right: 2%;
+    }
+
+    .elipse-container img:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media (max-width: 530px) {
+    .main-container {
+        height: 85rem;
+    }
+
+    .elipse-container {
+        right: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .elipse-container img {
+        height: 39rem;
+        width: 39rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .elipse-container {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+    .name-dev {
+        letter-spacing: 0;
+    }
+
+    .stack-dev {
+        letter-spacing: 0;
+    }
+}
+

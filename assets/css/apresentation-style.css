@@ -1,153 +1,71 @@
 @import "typography-style.css";
 
 .container-apresentation {
-    height: 95rem;
+    display: flex;
+    flex-flow: row wrap;
+    background: linear-gradient(var(--gradient-area));
+    height: 90rem;
     width: 100%;
 }
 
-.name-dev {
-    position: absolute;
-    top: 47%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    margin: 0 0 0 25%;
-    padding: 0;
-    font-size: 6rem;
-    color: transparent;
-    font-family: var(--fugazOne);
-}
-
-.name-dev span:nth-child(1) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: var(--blue-5);
-    transition: 0.5s;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-    overflow: hidden;
-}
-
-.name-dev:hover span:nth-child(1) {
-    transform: translateY(-36px);
-}
-
-.name-dev span:nth-child(2) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: var(--blue-5);
-    transition: 0.5s;
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-    overflow: hidden;
-}
-
-.name-dev:hover span:nth-child(2) {
-    transform: translateY(36px);
-}
-
-.name-dev span:nth-child(3) {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%) scaleY(0);
-    width: 95%;
-    color: var(--blue-4);
-    background-color: var(--grey-10);
-    font-family: var(--coda);
-    font-size: 2.4rem;
-    letter-spacing: 2rem;
-    text-align: center;
-    padding-left: 20px;
-    margin-left: 10px;
-    transition: 0.5s;
-    border-radius: 5px;
-}
-
-.name-dev:hover span:nth-child(3) {
-    transform: translateY(-50%) scaleY(1);
-}
-
-.container-description {
+.apresentation-area {
     display: flex;
-    flex-flow: column;
-    position: absolute;
-    top: 30%;
-    right: 10%;
-    height: 32.8rem;
-    width: 50rem;
-    border-radius: 5px;
-    box-shadow: 2px 1px 5px #1a1a1a;
-    background-color: var(--grey-2);
-    padding: 3rem 4.7rem;
-    z-index: 0;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 1;
+    margin: 0 0 0 18rem;
 }
 
-.container-title-description {
-    display: flex;
-}
-
-.container-title-description h2 {
-    position: relative;
-    left: -2%;
+.title-apresentation {
+    font-size: 5rem;
+    font-weight: 600;
     font-family: var(--poppins);
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--blue-4);
-}
-
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-
-.container-title-description h2::after {
-    content: '|';
-    margin-left: 5px;
-    opacity: 1;
-    animation: blink .5s infinite;
-}
-
-.icon-detail {
-    position: relative;
-    top: 12px;
-    left: -4%;
-    height: 32px;
-}
-
-.container-description p {
-    font-family: var(--openSans);
-    font-size: 2rem;
     color: var(--grey-11);
-    max-width: 41rem;
+    margin-bottom: 3rem;
 }
 
-.word-keys-1 {
+.info-apresentation {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--openSans);
+    color: var(--grey-11);
+    max-width: 55rem;
+    margin-bottom: 2rem;
+}
+
+.key-word {
     font-weight: bold;
-    color: var(--blue-6);
+    font-size: 2.7rem;
 }
 
-.word-keys-2 {
-    font-weight: 600;
+.container-image-apresentation {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0 18rem 0 0;
+}
+
+.container-image-apresentation img {
+    max-height: 62.7rem;
+    max-width: 60rem;
 }
 
 .btn-download-cv {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 5.6rem;
     width: 17.6rem;
-    margin: 5rem auto 0 auto;
+    margin-bottom: 3rem;
     font-family: var(--openSans);
     font-weight: 600;
     font-size: 2.4rem;
     color: var(--blue-1);
     border-radius: 5px;
-    background: linear-gradient(var(--gradient-btn));
-    border: 2px solid var(--blue-1);
+    background: var(--grey-11);
+    border: none;
+    box-shadow: 1px 1px 4px var(--blue-2);
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
@@ -160,6 +78,24 @@
 }
 
 .btn-download-cv:hover {
-    background: linear-gradient(#F7F7F7, #b6d2f7);
     transform: scale(1.1);
+}
+
+@media(max-width: 1070px) {
+
+    .container-apresentation {
+        height: auto;
+    }
+
+    .apresentation-area {
+        margin: 4rem 3rem;
+    }
+
+    .container-image-apresentation {
+        display: none;
+    }
+
+    .btn-download-cv {
+        margin-top: 4rem;
+    }
 }
