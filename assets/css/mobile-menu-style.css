@@ -14,7 +14,7 @@
 
 .menu-mobile {
     position: fixed;
-    height: 75em;
+    height: 100vh;
     width: 50%;
     right: 0;
     margin: 0;
