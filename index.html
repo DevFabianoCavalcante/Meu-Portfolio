@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="./assets/css/services-skills-style.css">
     <link rel="stylesheet" href="./assets/css/qualification-style.css">
     <link rel="stylesheet" href="./assets/css/project-style.css">
+    <link rel="stylesheet" href="./assets/css/contact-area-style.css">
     <link rel="stylesheet" href="./assets/css/footer-style.css">
     <link rel="stylesheet" href="./assets/css/mobile-menu-style.css">
+    <link rel="stylesheet" href="./assets/css/validate-form-style.css">
     <title>Fabiano Cavalcante</title>
 </head>
 <body>
@@ -305,54 +307,55 @@
         </div>
     </section>
 
-    <footer>
+    <section>
         <div class="container-contact-area" id="contact">
             <div class="container-title-contact-area scroll-effect-1s">
                 <h2>Me conta como posso te ajudar<span class="pointer-detail">.</span></h2>
             </div>
-            <div class="container-content-contact" id="contact">
-                <div class="container-network">
-                    <div class="network-area scroll-effect-3s">
-                        <h3>Redes</h3>
-                        <div class="type-network">
-                            <a href="mailto: 7fabiano.silva@gmail.com" target="_blank">
-                                <img src="./assets/img/gmail.svg" alt="Ícone do Gmail">
-                            </a>
-                            <a href="https://github.com/DevFabianoCavalcante/" target="_blank">
-                                <img src="./assets/img/github.svg" alt="Ícone do Github">
-                            </a>
-                            <a href="https://www.linkedin.com/in/fabiano-cavalcante-99811221a/" target="_blank">
-                                <img src="./assets/img/linkedin.svg" alt="Ícone do LinkedIn">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-form scroll-effect-3s">
-                    <form class="form-area" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST" autocomplete="off">
-                        <label class="label-area">
-                            Nome
-                            <input type="text" name="name">
-                        </label>
-                        <label class="label-area">
-                            E-mail
-                            <input type="text" name="email">
-                        </label>
-                        <label class="label-area">
-                            Mensagem
-                            <textarea name="message"></textarea>
-                        </label>
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="https://fabiano-cavalcante.netlify.app/thanks-page">
-                        <button class="btn-submit-form" type="submit">Enviar</button>
-                    </form>
-                </div>
+            <div class="container-form scroll-effect-3s">
+                <form class="form-area" id="form-contact" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST" autocomplete="off">
+                    <label class="label-area">
+                        Nome
+                        <input type="text" name="name" id="name" required>
+                    </label>
+                    <label class="label-area">
+                        E-mail
+                        <input type="text" name="email" id="email" required>
+                    </label>
+                    <label class="label-area">
+                        Mensagem
+                        <textarea name="message" required></textarea>
+                    </label>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://fabiano-cavalcante.netlify.app/thanks-page">
+                    <button class="btn-submit-form" id="btn-submit" type="submit">Enviar</button>
+                </form>
             </div>
         </div>
-    </footer> -->
+        </div>
+    </section>
+
+    <footer class="container-footer">
+        <div class="container-icons">
+            <a href="mailto: 7fabiano.silva@gmail.com" target="_blank">
+                <img src="./assets/img/gmail.svg" alt="Ícone gmail" aria-label="Gmail" />
+            </a>
+            <a href="https://github.com/DevFabianoCavalcante/" target="_blank">
+                <img src="./assets/img/github.svg" alt="Ícone github" aria-label="Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/fabiano-cavalcante-99811221a/" target="_blank">
+                <img src="./assets/img/linkedin.svg" alt="Ícone linkedin" aria-label="LinkedIn" />
+            </a>
+        </div>
+        <div class="area-credit">
+            <p>Desenvolvido por Fabiano Cavalcante © 2022</p>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./assets/js/scrollReveal.js"></script>
     <script src="./assets/js/animation-title.js"></script>
     <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/validadeForm.js"></script>
 </body>
 </html>
