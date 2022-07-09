@@ -9,8 +9,6 @@ Em desenvolvimento :desktop_computer:
 
 
 ## Etapas restantes para a conclusão do projeto:
-    - Menu mobile
-    - Personalizar barra de menu conforme o scroll
     - Validação do formulário
 
 ## :key: Como Acessar meu protfólio
