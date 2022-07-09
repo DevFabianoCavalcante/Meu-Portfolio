@@ -11,4 +11,5 @@ sr.reveal('.scroll-effect-3s',{
 
 sr.reveal('.scroll-effect-4s',{
     duration: 4000,
+    distance: '200px',
 });
