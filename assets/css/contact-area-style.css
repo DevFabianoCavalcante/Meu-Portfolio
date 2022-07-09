@@ -1,4 +1,4 @@
-@import 'typhography-style.css';
+@import 'typography-style.css';
 
 .container-contact-area{
     display: flex;
@@ -59,8 +59,10 @@
     font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--openSans);
-    color: var(--grey-1);
-    border-radius: 5px;
+    color: var(--grey-11);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--grey-1);
     transition: ease-in-out .5s;
 }
 
@@ -72,16 +74,18 @@
     font-size: 1.5rem;
     font-weight: 400;
     font-family: var(--openSans);
-    color: var(--grey-1);
-    border-radius: 5px;
+    color: var(--grey-11);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--grey-1);
     resize: none;
     transition: ease-in-out .5s;
 }
 
 .label-area input:focus, .label-area textarea:focus {
     outline: none;
-    border:1px solid var(--blue-5);
-    box-shadow: 0 0 10px #719ECE;
+    border:1px solid var(--grey-11);
+    box-shadow: 0 0 10px var(--grey-11);
 }
 
 .btn-submit-form {
