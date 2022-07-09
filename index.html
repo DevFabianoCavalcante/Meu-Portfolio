@@ -15,13 +15,38 @@
     <link rel="stylesheet" href="./assets/css/qualification-style.css">
     <link rel="stylesheet" href="./assets/css/project-style.css">
     <link rel="stylesheet" href="./assets/css/footer-style.css">
+    <link rel="stylesheet" href="./assets/css/mobile-menu-style.css">
     <title>Fabiano Cavalcante</title>
 </head>
 <body>
+    <div class="container-btn-menu-mobile open-menu">
+        <button id="btn-open-menu"><img src="./assets/img/Menu.svg" alt="Ícone do menu mobile"></button>
+    </div>
+    <aside class="menu-mobile display-menu">
+        <div class="container-btn-menu-mobile">
+            <button type="button" id="btn-close-menu">
+                <img src="./assets/img/Close-menu.svg" alt="Ícone para fechar menu mobile">
+            </button>
+        </div>
+        <div class="container-menu-list">
+            <nav>
+                <ul>
+                    <li><a href="#begins">Ínicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#graduate">Formação</a></li>
+                    <li><a href="#project">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
     <header>
         <nav>
             <div class="sidebar-container">
-                <div class="logo-name"><a href="#init">&#60FABIANO CAVALCANTE /></a></div>
+                <div class="logo-name"><a href="#begins">&#60FABIANO CAVALCANTE /></a></div>
                 <div>
                     <ul class="sidebar-list">
                         <li><a href="#contact">CONTATO</a></li>
@@ -33,7 +58,7 @@
     
     <section>
         <main>
-            <div class="main-container">
+            <div class="main-container" id="begins">
                 <h1 class="name-dev" id="dev">Fabiano Cavalcante</h1>
                 <h2 class="stack-dev" id="stack">Desenvolvedor Front-End</h2>
                 <div class="elipse-container scroll-effect-4s">
@@ -44,10 +69,10 @@
     </section>
 
     <section>
-        <div class="container-apresentation">
+        <div class="container-apresentation" id="about">
             <div class="apresentation-area scroll-effect-1s">
                 <h1 class="title-apresentation">Quem sou eu?</h1>
-                <p class="info-apresentation">Sou desenvolvedor Front-End e acadêmico em Análise e desenvolvimento de sistemas, possuo sólidos conhecimentos em <span class="key-word">HTML</span>, <span class="key-word">CSS</span>, <span class="key-word">Javascript</span> e <span class="key-word">Typescript</span>, além de grande familiaridade com <span class="key-word">ReactJs</span>, Bootstrap, UI/UX e várias outras ferramentas do mercado.</p>
+                <p class="info-apresentation">Sou desenvolvedor Front-End e acadêmico em Análise e desenvolvimento de sistemas, possuo sólidos conhecimentos em <span class="key-word">HTML</span>, <span class="key-word">CSS</span>, <span class="key-word">Javascript</span> e <span class="key-word">Typescript</span>, além de familiaridade com <span class="key-word">ReactJs</span>, Bootstrap, UI/UX e várias outras ferramentas do mercado.</p>
                 <button type="button" class="btn-download-cv scroll-effect-4s">
                     <a href="./assets/document/Currículo Fabiano Cavalcante.pdf" download="Currículo Fabiano Cavalcante.pdf">Currículo <img src="./assets/img/doc-portifolio.svg"/>
                     </a>
@@ -60,7 +85,7 @@
     </section>
 
     <section>
-        <div class="container-services-skills">
+        <div class="container-services-skills" id="services">
             <div class="container-services">
                 <div class="services scroll-effect-1s">
                     <h2>Serviços</h2>
@@ -72,7 +97,7 @@
                     <p>Desenvolvimento e manutenção de sites responsivos.</p>
                 </div>
             </div>
-            <div class="container-skills">
+            <div class="container-skills" id="skills">
                 <div class="skills scroll-effect-1s">
                     <img src="./assets/img/peça-quebra-cabeça.svg" alt="uma peça de um quebra-cabeça" />
                     <h3>Habilidades</h3>
@@ -124,7 +149,7 @@
     </section>
 
     <section>
-        <div class="container-qualification">
+        <div class="container-qualification" id="graduate">
             <div class="formation-title scroll-effect-1s">
                 <h2>Formação</h2>
                 <img src="./assets/img/formation-icon.svg" alt="ícone de um documento assemelhante a um arquivo" />
@@ -184,7 +209,7 @@
     </section>
 
     <section>
-        <div class="container-project">
+        <div class="container-project" id="project">
             <div class="title-container-project scroll-effect-1s">
                 <img src="./assets/img/icon-project.svg" alt="Ícone de uma maleta corporativa">
                 <h2>Projetos</h2>
@@ -281,7 +306,7 @@
     </section>
 
     <footer>
-        <div class="container-contact-area">
+        <div class="container-contact-area" id="contact">
             <div class="container-title-contact-area scroll-effect-1s">
                 <h2>Me conta como posso te ajudar<span class="pointer-detail">.</span></h2>
             </div>
@@ -326,7 +351,8 @@
     </footer> -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./assets/js/animation-title.js"></script>
     <script src="./assets/js/scrollReveal.js"></script>
+    <script src="./assets/js/animation-title.js"></script>
+    <script src="./assets/js/menu.js"></script>
 </body>
 </html>
