@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/footer-style.css">
     <link rel="stylesheet" href="./assets/css/mobile-menu-style.css">
     <link rel="stylesheet" href="./assets/css/validate-form-style.css">
+    <link rel="stylesheet" href="./assets/css/scrollBar-style.css">
     <title>Fabiano Cavalcante</title>
 </head>
 <body>
@@ -315,16 +316,13 @@
             <div class="container-form scroll-effect-3s">
                 <form class="form-area" id="form-contact" action="https://formsubmit.co/7fabiano.silva@gmail.com" method="POST" autocomplete="off">
                     <label class="label-area">
-                        Nome
-                        <input type="text" name="name" id="name" required>
+                        <input type="text" name="name" id="name" required  placeholder="Nome">
                     </label>
                     <label class="label-area">
-                        E-mail
-                        <input type="text" name="email" id="email" required>
+                        <input type="text" name="email" id="email" required placeholder="E-mail" pattern="^[a-z]@">
                     </label>
                     <label class="label-area">
-                        Mensagem
-                        <textarea name="message" required></textarea>
+                        <textarea name="message" required placeholder="Mensagem" id="messageArea"></textarea>
                     </label>
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://fabiano-cavalcante.netlify.app/thanks-page">
@@ -338,13 +336,13 @@
     <footer class="container-footer">
         <div class="container-icons">
             <a href="mailto: 7fabiano.silva@gmail.com" target="_blank">
-                <img src="./assets/img/gmail.svg" alt="Ícone gmail" aria-label="Gmail" />
+                <img src="./assets/img/gmail.svg" alt="Ícone gmail" />
             </a>
             <a href="https://github.com/DevFabianoCavalcante/" target="_blank">
-                <img src="./assets/img/github.svg" alt="Ícone github" aria-label="Github" />
+                <img src="./assets/img/github.svg" alt="Ícone github" />
             </a>
             <a href="https://www.linkedin.com/in/fabiano-cavalcante-99811221a/" target="_blank">
-                <img src="./assets/img/linkedin.svg" alt="Ícone linkedin" aria-label="LinkedIn" />
+                <img src="./assets/img/linkedin.svg" alt="Ícone linkedin" />
             </a>
         </div>
         <div class="area-credit">
