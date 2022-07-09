@@ -5,18 +5,15 @@
 
 <h2 align="center">:briefcase: Status de produção:</h2>
 
-Em desenvolvimento :desktop_computer:
+<h4> align="center"Constante :desktop_computer:</h4>
 
-
-## Etapas restantes para a conclusão do projeto:
-    - Validação do formulário
 
 ## :key: Como Acessar meu protfólio
 
 Basta clicar [aqui](https://fabiano-cavalcante.netlify.app/) para ser redirecionado até a página.
 
 
-## :hammer_and_wrench: Ferramentas e conceitos que trabalhei nesse projeto:
+## :hammer_and_wrench: Ferramentas que trabalhei nesse projeto:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
