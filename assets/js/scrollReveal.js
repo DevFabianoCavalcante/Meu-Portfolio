@@ -9,6 +9,18 @@ sr.reveal('.scroll-effect-3s',{
     duration: 3000,
 });
 
+sr.reveal('.scroll-effect-right-3s', {
+    duration: 3000,
+    origin: 'right',
+    distance: '40px',
+});
+
+sr.reveal('.scroll-effect-left-3s', {
+    duration: 3000,
+    origin: 'left',
+    distance: '40px',
+});
+
 sr.reveal('.scroll-effect-4s',{
     duration: 4000,
     distance: '100px',
