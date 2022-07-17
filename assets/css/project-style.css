@@ -53,12 +53,13 @@
     height: 23rem;
     width: 42rem;
     border-radius: 5px;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem 1rem;
 }
 
 .container-image img {
     height: 100%;
     width: 100%;
+    border-radius: 0.5rem;
 }
 
 .skills-used-container {
@@ -196,7 +197,7 @@
     .container-image {
         height: auto;
         width: auto;
-        margin: 0 1rem;
+        margin: 0 1.5rem;
     }
 
     .skills-used-container {
@@ -218,10 +219,10 @@
     }
     
     .description-project p {
-        text-align: center;
+        text-align: left;
         height: auto;
         max-width: 50rem;
-        margin: 0 auto 3rem auto;
+        margin: 0 2rem 3rem 2rem;
         padding: 0 1rem;
     }
 

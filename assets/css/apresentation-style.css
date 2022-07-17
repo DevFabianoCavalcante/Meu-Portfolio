@@ -57,7 +57,7 @@
     justify-content: left;
     height: 5.6rem;
     width: 17.6rem;
-    margin-bottom: 3rem;
+    margin:3rem 0 3rem 0;
     font-family: var(--openSans);
     font-weight: 600;
     font-size: 2.4rem;

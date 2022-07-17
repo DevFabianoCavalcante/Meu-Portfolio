@@ -109,12 +109,12 @@
     margin: 2.5rem;
     border-radius: 5px;
     background-color: var(--grey-2);
-    box-shadow: 1px 1px #181818;
+    box-shadow: 0 1px 5px #181818;
     transition: ease-in-out .5s;
 }
 
 .type-skills:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .type-skills img {
