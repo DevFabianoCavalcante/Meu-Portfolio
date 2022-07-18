@@ -65,8 +65,9 @@
 .skills-used-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
+    justify-content: center;
     width: 42rem;
+    margin: 0 1rem;
 }
 
 .skills-used-container div {
