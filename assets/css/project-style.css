@@ -147,7 +147,6 @@
 
 .container-btn-project button:hover {
     transform: scale(1.1);
-    border: 1px solid var(--grey-11);
 }
 
 .github-project{
