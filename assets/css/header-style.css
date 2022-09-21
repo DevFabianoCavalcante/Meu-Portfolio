@@ -14,15 +14,14 @@
     z-index: 99;
 }
 
-.logo-name {
-    font-family: var(--coda);
-    color: var(--blue-5);
-    font-size: 28px;
+.logo-name img {
+    height: 8rem;
+    width: 8rem;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
-.logo-name:hover {
+.logo-name img:hover {
     transform: scale(1.1);
 }
 
