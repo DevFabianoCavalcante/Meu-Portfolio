@@ -1,0 +1,204 @@
+@import "typography-style.css";
+
+.container-services-skills {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.container-services {
+    flex: 1;
+    margin: 0 0 0 19rem;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.services h2 {
+    font-size: 4.8rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: var(--grey-11);
+    margin-right: 1rem;
+}
+
+.services img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.services-description {
+    margin-left: 15rem;
+}
+
+.services-description img{
+    height: 30rem;
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.services-description h3 {
+    font-size: 3.5rem;
+    font-family: var(--openSans);
+    font-weight: 600;
+    margin: 0 0 1rem -2rem;
+    color: var(--grey-11);
+}
+
+.services-description p {
+    font-size: 1.5rem;
+    font-family: var(--openSans);
+    margin-left: -2rem;
+    color: var(--grey-10);
+    max-width: 35rem;
+}
+
+.container-skills {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: right;
+    margin: 15rem 18rem 4rem auto;
+}
+
+.skills {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 30rem;
+    justify-content: right;
+}
+
+.skills img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.skills h3 {
+    font-size: 4.8rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    margin-left: 1rem;
+    color: var(--grey-11);
+}
+
+.skills-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    min-height: 40rem;
+    width: 39rem;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: var(--grey-3);
+    box-shadow: 2px 1px 5px #1a1a1a;
+}
+
+.type-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5px;
+    background-color: var(--grey-2);
+    box-shadow: 0 1px 2px #272727;
+    transition: ease-in-out .5s;
+}
+
+.type-skills:hover {
+    transform: scale(1.1);
+}
+
+.type-skills img {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.type-skills p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--openSans);
+    color: var(--grey-11);
+}
+
+@media(max-width: 1000px) {
+    .container-services-skills {
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0;
+        min-height: 130rem;
+        height: auto;
+    }
+
+    .container-services {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .services {
+        margin: 0 5%;
+    }
+
+    .services-description {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    
+    .services-description img{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto 2rem auto;
+    }
+    
+    .services-description h3 {
+        text-align: center;
+        font-size: 2.8rem;
+        margin: 0 0 1rem 0;
+    }
+    
+    .services-description p {
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .container-skills {
+        justify-content: center;
+        align-items: center;
+        margin: 15rem auto 4rem auto;
+    }
+
+    .skills {
+        margin-left: 0;
+        margin: 0 5%;
+    }
+
+    .skills-group {
+        flex: 1 2 10rem;
+        height: auto;
+        width: auto;
+        margin-right: 0;
+        margin: 0 5%;
+    }
+
+    .type-skills {
+        flex-direction: column wrap;
+        flex: 1 1 auto;
+    }
+
+}

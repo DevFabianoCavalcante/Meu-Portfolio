@@ -1,0 +1,34 @@
+@import 'typography-style.css';
+
+.container-footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10.9rem;
+    width: 100%;
+    background-color: #000;
+}
+
+.container-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+.container-icons a {
+    margin: 0 2rem;
+    transition: ease-in-out .5s;
+}
+
+.container-icons a:hover {
+    transform: scale(1.2);
+}
+
+.area-credit p {
+    font-size: 1.6rem;
+    font-family: var(--openSans);
+    font-weight: 400;
+    color: var(--blue-5);
+}

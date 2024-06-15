@@ -1,0 +1,140 @@
+@import "typography-style.css";
+
+.container-apresentation {
+    display: flex;
+    flex-flow: row wrap;
+    background: linear-gradient(var(--gradient-area));
+    height: 90rem;
+    width: 100%;
+}
+
+.apresentation-area {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 1;
+    margin: 0 0 0 18rem;
+}
+
+.title-apresentation {
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--grey-11);
+    margin-bottom: 3rem;
+}
+
+.info-apresentation {
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-family: var(--openSans);
+    color: var(--grey-11);
+    max-width: 55rem;
+    margin-bottom: 2rem;
+}
+
+.key-word {
+    font-weight: 600;
+    font-size: 2.7rem;
+}
+
+.container-image-apresentation {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0 18rem 0 0;
+}
+
+.container-image-apresentation img {
+    max-height: 62.7rem;
+    max-width: 60rem;
+}
+
+.btn-download-cv {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 5.6rem;
+    width: 17.6rem;
+    margin:3rem 0 3rem 0;
+    font-family: var(--openSans);
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: var(--blue-1);
+    border-radius: 5px;
+    background: var(--grey-11);
+    border: none;
+    box-shadow: 1px 1px 4px var(--blue-2);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-download-cv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.btn-download-cv:hover {
+    transform: scale(1.1);
+}
+
+
+@media(max-width: 1410px) {
+    .container-apresentation {
+        flex-flow: column-reverse wrap;
+        align-items: center;
+        height: auto;
+    }
+
+    .container-image-apresentation {
+        margin: 0 0 5rem 0;
+    }
+
+    .apresentation-area {
+        margin: 0;
+    }
+
+    .title-apresentation {
+        font-size: 3.8rem;
+    }
+    
+    .info-apresentation {
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width: 590px) {
+    
+    .apresentation-area {
+        padding: 0 2rem;
+    }
+
+    .container-image-apresentation img {
+        max-height: 42.7rem;
+        max-width: 40rem;
+    }
+
+    .title-apresentation {
+        font-size: 3.2rem;
+    }
+    
+    .info-apresentation {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .key-word {
+        font-weight: 600;
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .container-image-apresentation img {
+        max-height: 37.7rem;
+        max-width: 35rem;
+    }
+}
