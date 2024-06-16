@@ -252,13 +252,12 @@
 @media (max-width: 670px) {
     .container-extra-study {
         grid-template-columns: 1fr 1fr;
-        gap: 3rem;
         min-width: 30rem;
     }
 
     .type-extra-study {
         height: 10rem;
-        min-width: 20rem;
+        min-width: 15rem;
     }
 
     .details-extra-study h4 {
