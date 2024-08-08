@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-1: #005C9F;
+    --blue-2: #00759F;
+    --blue-4: #009ED8;
+    --blue-5: #00BBFF;
+    --blue-6: #37CAFF;
+    --blue-7: #76DAFF;
+    --specialBlue-1: #569EFF;
+    --specialBlue-2: #75C5FF;
+    --grey-1: #232323;
+    --grey-2: #333333;
+    --grey-3: #464646;
+    --grey-4: #5C5C5C;
+    --grey-10: #EDEDED;
+    --grey-11: #F7F7F7;
+    --poppins: 'Poppins', sans-serif;
+    --coda: 'Coda', cursive;
+    --openSans: 'Open Sans', sans-serif;
+    --fugazOne: 'Fugaz One', cursive;
+    --gradient-btn:#F7F7F7, #8AA1BF;
+    --gradient-btn-2: #00759F, #009ED8;
+    --gradient-area: #232323, #00759F, #232323;
+    --gradientColor-1: #F7F7F7;
+    --gradientColor-2: #8AA1BF;
+    --gradient-transition: #232323, #5C5C5C;
+}
+
+html {
+    background-color: var(--grey-1);
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.scroll-effect-1s, .scroll-effect-3s, .scroll-effect-4s {
+    visibility: hidden;
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 9px;
+    }
+}

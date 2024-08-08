@@ -1,0 +1,69 @@
+@import "typography-style.css";
+
+.container-thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out .5s;
+}
+
+.thanks-phrase {
+    font-size: 8rem;
+    font-family: var(--coda);
+    font-weight: 400;
+    text-align: center;
+    color: var(--blue-5);
+    margin-top: 10rem;
+}
+
+.info-feedback {
+    font-size: 2.4rem;
+    font-family: var(--openSans);
+    font-weight: 400;
+    text-align: center;
+    color: var(--grey-11);
+    margin-top: 5rem;
+}
+
+.btn-return {
+    height: 4.2rem;
+    width: 19rem;
+    border: 1px solid var(--blue-7);
+    border-radius: 5px;
+    margin-top: 15rem;
+    font-size: 1.4rem;
+    font-family: var(--openSans);
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--blue-7);
+    transition: ease-in-out .5s;
+}
+
+.btn-return a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.btn-return:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .container-thanks {
+        margin: 0 2rem;
+    }
+
+    .thanks-phrase {
+        font-size: 7rem;
+        margin-top: 5rem;
+    }
+
+    .btn-return {
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+}
